@@ -1,0 +1,105 @@
+body {
+    background-color: #e8edf2;
+
+    /* ACT 7 - BACKGROUND */
+    background-image: repeating-linear-gradient(
+        45deg,
+        #e8edf2,
+        #e8edf2 10px,
+        #dce3e9 10px,
+        #dce3e9 20px
+    );
+
+    background-repeat: repeat;
+
+    color: #20252a;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 35px 8%;
+
+    /* ACT 7 - BORDER */
+    border: 5px solid #20252a;
+}
+
+.menu {
+    margin: 0;
+    text-align: center;
+
+    /* ACT 7 - BORDER + BACKGROUND */
+    border: 2px solid #20252a;
+    padding: 15px;
+    background-color: #f8fafb;
+}
+
+.menu a {
+    color: #20252a;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin: 0 20px;
+}
+
+.menu a:hover {
+    color: #526d82;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #9da9b3;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 70px;
+    line-height: 0.95;
+    margin: 0 0 30px 0;
+    letter-spacing: -3px;
+
+    /* ACT 7 - BORDER */
+    border-bottom: 3px solid #20252a;
+    padding-bottom: 10px;
+}
+
+.intro {
+    width: 380px;
+    font-size: 16px;
+    line-height: 1.6;
+
+    /* ACT 7 - BORDER + BACKGROUND */
+    border: 2px solid #20252a;
+    padding: 15px;
+    background-color: #f8fafb;
+}
+
+.quote {
+    width: 380px;
+    margin-top: 35px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 17px;
+
+    /* ACT 7 - BORDER */
+    border-left: 5px solid #526d82;
+    padding-left: 15px;
+}
+
+.signature {
+    margin-top: 25px;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+img {
+    width: 45%;
+    height: 600px;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: 100px;
+
+    /* ACT 7 - IMAGE + BORDER */
+    border: 5px solid #20252a;
+}

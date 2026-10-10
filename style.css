@@ -1,7 +1,7 @@
 body {
     background-color: #e8edf2;
 
-    /* ACT 7 - BACKGROUND */
+  
     background-image: repeating-linear-gradient(
         45deg,
         #e8edf2,
@@ -17,7 +17,7 @@ body {
     margin: 0;
     padding: 35px 8%;
 
-    /* ACT 7 - BORDER */
+  
     border: 5px solid #20252a;
 }
 
@@ -25,7 +25,7 @@ body {
     margin: 0;
     text-align: center;
 
-    /* ACT 7 - BORDER + BACKGROUND */
+   
     border: 2px solid #20252a;
     padding: 15px;
     background-color: #f8fafb;
@@ -57,7 +57,7 @@ h1 {
     margin: 0 0 30px 0;
     letter-spacing: -3px;
 
-    /* ACT 7 - BORDER */
+    
     border-bottom: 3px solid #20252a;
     padding-bottom: 10px;
 }
@@ -67,7 +67,7 @@ h1 {
     font-size: 16px;
     line-height: 1.6;
 
-    /* ACT 7 - BORDER + BACKGROUND */
+   
     border: 2px solid #20252a;
     padding: 15px;
     background-color: #f8fafb;
@@ -80,7 +80,7 @@ h1 {
     font-style: italic;
     font-size: 17px;
 
-    /* ACT 7 - BORDER */
+   
     border-left: 5px solid #526d82;
     padding-left: 15px;
 }
@@ -100,6 +100,6 @@ img {
     right: 0;
     top: 100px;
 
-    /* ACT 7 - IMAGE + BORDER */
+    
     border: 5px solid #20252a;
 }
